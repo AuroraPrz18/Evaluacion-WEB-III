@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    font-family:Arial, Helvetica, sans-serif; /* Todo: Cambiar */
+}
+
+nav:first-child{
+    /*background-color: #0081C9; TODO: Cambiar a este color cuando necesario */
+    background-color: #D9D9D9;
+    margin: 0px;      
+    position: absolute;  
+}
+nav{
+    background-color: #D9D9D9;
+    margin: 0px;          
+}
+.menuItems{    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menuItems li {
+    margin: 8px;
+}
+.menuItems li a{    
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.menuItems2{
+    border: 1px solid bl;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menuItems2 li {
+    margin: 8px;
+}
+.menuItems2 li a{    
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+header{
+    position: fixed;  
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+h1{
+    background-color: #06283D;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /*TODO: CAMBIAR*/
+    padding: 10px 0px;
+    margin: 0px !important;
+    /*display: none;   TODO:Cambiar segun el landing page */
+}
+#headerNavbar{ /*El que tiene el search*/
+    background-color: #0081C9;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    margin: 0px !important;
+    
+}
+#headerNavbar .row{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#headerNavbar img{
+    height: 40px;
+    width: 50px;
+}
+
+.btn-searcher{
+    background-color: #FFC93C !important;
+    margin-left: 0px !important;
+    height: 40px !important;
+    width: 40px !important;
+    padding: 0px !important;
+}
+
+#search-icon{
+    width: 80% !important;
+    height: 80% !important;
+}
+#first-section{
+    background-color: #0081C9;
+    margin: 0;        
+    height: 100vh;
+}
+
+#first-section footer{    
+    background-color: #06283D;    
+    padding: 2%;    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+      
+}
+
+#second-section{
+    background-color: white;
+    margin: 0;    
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;    
+}
+
+#column1{
+    width: 50%;
+    margin: 8%;    
+    margin-top: 15%;    
+    color: white;
+     
+}
+
+#column2{
+    width: 40%;    
+    margin-top: 15%;   
+    overflow: hidden;    
+}
+
+#img-carrito{     
+    max-width: 85%;       
+}
+
+#title-section{
+    font-size: 4.5em;   
+    font-family: 'Hepta Slab', serif;
+}
+
+#description{
+    display: block;
+    margin-top: 10%;
+    font-size: 1.5em;   
+}
+
+#btn-ex{
+    margin-top: 10%;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+.menuItems2 li:first-child {
+    background-color: #FFC93C; 
+    
+}
