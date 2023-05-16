@@ -292,6 +292,14 @@ h1{
     background-color: #0081C9;
 }
 
+.headerOptions{
+    transition: transform 0.3s ease;
+}
+
+.headerOptions:hover{
+    transform: scale(1.1);      
+}
+
 @media (max-width: 739px) {
     #column1, #column2{
         margin-top: 20%;
