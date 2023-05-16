@@ -251,3 +251,38 @@ h1{
     margin-left: 15px;
     margin-right: 15px;    
 }
+
+@media (max-width: 739px) {
+    #column1, #column2{
+        margin-top: 20%;
+    }
+    #bar, #bar2{
+        font-size: 0.7em;
+        text-align: center;
+    }
+    #title-section{        
+        font-size: 3em;  
+    }
+    #category-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #comment{
+        flex-direction: column;        
+        align-items: center;
+    }
+    #comment .category{
+        margin: 0;
+    }
+    #rate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #rate div{
+        display: flex;        
+        justify-content: center;
+        text-align: center;
+    }
+}
+  
