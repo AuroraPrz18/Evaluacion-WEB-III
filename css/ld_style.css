@@ -50,6 +50,25 @@ nav .menuItems2 li {
 #active{
     background-color: #FFC93C;
 }
+.dropdown{
+    border: 0px !important;
+    margin-bottom: 16px;
+}
+.dropdown-item{
+    margin: 16px;
+
+}
+.dropdown-toggle{
+    width: 100% !important;
+    color: black !important;
+    background-color: #D9D9D9 !important;
+}
+.dropdown-menu{
+    width: 100%;
+    background-color: #D9D9D9 !important;
+    color: black !important;
+    font-weight: 600;
+}
 
 header{
     position: fixed;  
