@@ -90,6 +90,12 @@ h1{
     width: 50px;
 }
 
+/*#headerNavbar .headerOptions img {
+    width: 20px !important;
+    height: 200px !important;
+  }*/
+  
+
 .btn-searcher{
     background-color: #FFC93C !important;
     margin-left: 0px !important;
