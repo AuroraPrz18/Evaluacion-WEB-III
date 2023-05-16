@@ -87,8 +87,14 @@ h1{
     box-shadow: 3px 6px 5px #b1b0b0;
     margin-bottom: 20px;
 }
+#products{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-around;
+    
+}
 .card-body .row{
-    justify-content: space-between !important;
+    justify-content: center !important;
 }
 .card-img-top{
     height: 250px;
