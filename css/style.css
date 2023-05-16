@@ -254,3 +254,6 @@ image.iconCampana{
     justify-content: end;
 }
 
+.menuItems li:hover{
+    background-color: #0081C9;
+}
