@@ -59,7 +59,7 @@ function JsonParaLocalStorage(){
   return new Promise((resolve, reject) => {
     // Verificar si el JSON ya fue cargado en el localStorage
     if(!localStorage.getItem("jsonLoaded")) {
-      fetch('/json/products.json')
+      fetch('./json/products.json')
         .then(response => response.json())
         .then(data => {
           // Guarda el objeto JSON en localStorage como una cadena de texto

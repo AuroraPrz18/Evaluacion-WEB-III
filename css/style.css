@@ -82,6 +82,9 @@ h1{
 .card-body .row{
     justify-content: space-between !important;
 }
+.card-img-top{
+    height: 250px;
+}
 .card-text{
     color: #5BC0F8 !important;
 }
