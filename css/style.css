@@ -15,7 +15,8 @@ nav{
     justify-content: space-around;
 }
 nav .menuItems li {
-    margin: 8px;
+    margin: 0px;
+    padding: 8px 16px;
 }
 .menuItems li a{
     /*color: white; TODO: Cambiar a este color cuando necesario */
@@ -23,6 +24,9 @@ nav .menuItems li {
     font-weight: 600;
     text-decoration: none;
 
+}
+#active{
+    background-color: #FFC93C;
 }
 header{
     margin: 0px;
@@ -129,4 +133,6 @@ p.headerModal{
     color: black !important; 
     font-weight: bold;
 }
+
+
 
